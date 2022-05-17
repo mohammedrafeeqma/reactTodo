@@ -1,0 +1,96 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+.main{
+    padding: 3%;
+    width: 40%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+
+}
+.header{
+    display: flex;
+}
+.input{
+ height: 40px;
+ width: 300px;
+ margin-right: 20px;
+ font-size: 18px;
+ padding-left: 5px;
+}
+.submitButton{
+    height: 44px;
+    width: 100px;
+}
+.submitButton:hover{
+    cursor: pointer;
+}
+.todoList{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 430px;
+    height: 40px;
+    margin-top: 20px;
+}
+.paraDiv{
+    display: flex;
+    align-items: center;
+}
+.headingText{
+    margin-top: 10px;
+}
+.paraText{
+    font-size: 22px;
+}
+.paraText{
+    margin-left: 5px;
+}
+.buttons .button{
+    height: 42px;
+    width: 60px;
+    margin: 0 0px;
+}
+.buttons .button:hover{
+    cursor: pointer;
+}
+.buttons :nth-child(3){
+    margin-right: 0px;
+}
+.editDiv{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.editInput{
+    width: 50%;
+    height: 30px;
+    font-size: 21px;
+    padding-left: 5px;
+    margin-right: 15px;
+
+}
+.closeIcon{
+    margin: 10px;
+}
+.closeIcon:hover{
+    cursor: pointer;
+}
+.deleteDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 20px 20px;
+}
+.deleteButton:first-child{
+    margin-right: 5px;
+}
